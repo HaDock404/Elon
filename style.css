@@ -1,0 +1,2619 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+* {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box;
+    --primary-color: #F5F8FA; /*yellow*/
+    --secondary-color: #E1E8ED; /*orange*/
+    --tertiary-color: #AAB8C2; /*red*/
+    --quaternary-color: #657786; /*black*/
+}
+
+img {
+    width: 100vmin;
+}
+
+/*yellow*/
+
+.right-eye1{
+    width: 14vmin;
+    height: 4.6vmin;
+    background-color: transparent;
+    top: -32.5vmin;
+    left: -10.4vmin;
+    border-bottom: 4.6vmin solid var(--primary-color);
+    border-left: 4.6vmin solid transparent;
+    border-right: 4vmin solid transparent;
+}
+
+.right-eye2{
+    width: 2vmin;
+    height: 10vmin;
+    background-color: transparent;
+    top: -26.2vmin;
+    left: -14.37vmin;
+    transform: rotate(90deg);
+    border-bottom: 10vmin solid var(--primary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 2vmin solid transparent;
+}
+
+.right-eye3{
+    width: 2vmin;
+    height: 1.5vmin;
+    background-color: var(--primary-color);
+    top: -23.5vmin;
+    left: -6.8vmin;
+}
+
+.right-eye4{
+    width: 2vmin;
+    height: 8vmin;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    top: -28vmin;
+    left: -5vmin;
+    border-bottom: 8vmin solid var(--primary-color);
+    border-left: 1vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-eye1{
+    width: 2.5vmin;
+    height: 8vmin;
+    background-color: transparent;
+    transform: rotate(-46deg);
+    top: -29.8vmin;
+    left: 36.3vmin;
+    border-bottom: 5vmin solid var(--primary-color);
+    border-left: 2.3vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-eye2{
+    width: 1.6vmin;
+    height: 4.8vmin;
+    background-color: var(--primary-color);
+    transform: rotate(-73.5deg);
+    top: -33.3vmin;
+    left: 36.3vmin;
+}
+
+.left-eye3{
+    width: 4vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(44.5deg);
+    top: -30.3vmin;
+    left: 42.5vmin;
+    border-bottom: 1.93vmin solid var(--primary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 3vmin solid transparent;
+}
+
+.right-hear1 {
+    width: 3.3vmin;
+    height: 6vmin;
+    background-color: transparent;
+    top: -1.4vmin;
+    left: -41.69vmin;
+    transform: rotate(180deg);
+    border-bottom: 6vmin solid yelvar(--primary-color)low;
+    border-left: 0vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.right-hear2 {
+    width: 2vmin;
+    height: 6vmin;
+    background-color: transparent;
+    top: -7.5vmin;
+    left: -44.464vmin;
+    transform: rotate(180deg);
+    border-bottom: 6vmin solid var(--primary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.right-hear3 {
+    width: 4vmin;
+    height: 3vmin;
+    background-color: transparent;
+    top: -10.5vmin;
+    left: -40.5vmin;
+    border-bottom: 3vmin solid var(--primary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 3vmin solid transparent;
+}
+
+.right-cheek1 {
+    width: 5vmin;
+    height: 8vmin;
+    background-color: transparent;
+    top: 24.3vmin;
+    left: -29.4vmin;
+    transform: rotate(180deg);
+    border-bottom: 7.5vmin solid var(--primary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.right-cheek2 {
+    width: 7.1vmin;
+    height: 16vmin;
+    background-color: var(--primary-color);
+    top: 16vmin;
+    left: -22.2vmin;
+}
+
+.left-chin1 {
+    width: 4.2vmin;
+    height: 4vmin;
+    background-color: transparent;
+    top: 30vmin;
+    left: 42.7vmin;
+    transform: rotate(180deg);
+    border-bottom: 3.8vmin solid var(--primary-color);
+    border-left: 1.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-chin2 {
+    width: 8.5vmin;
+    height: 1.9vmin;
+    background-color: transparent;
+    top: 35.5vmin;
+    left: 38vmin;
+    transform: rotate(-211deg);
+    border-bottom: 1.9vmin solid var(--primary-color);
+    border-left: 1.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+    
+}
+/*yellow*/
+
+/*Orange*/
+
+.right-cheek3bis {
+    width: 3.5vmin;
+    height: 3.5vmin;
+    background-color: var(--secondary-color);
+    top: 6.5vmin;
+    left: -20vmin;
+}
+
+.middle-chin1{
+    width: 4.5vmin;
+    height: 3.5vmin;
+    background-color: transparent;
+    top: 40vmin;
+    left: 7vmin;
+    border-bottom: 1.9vmin solid var(--secondary-color);
+    border-left: 1.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.middle-chin2{
+    width: 3.3vmin;
+    height: 4vmin;
+    background-color: transparent;
+    top: 38.7vmin;
+    left: 30.5vmin;
+    transform: rotate(-90deg);
+    border-bottom: 4vmin solid var(--secondary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 2.4vmin solid transparent;
+}
+
+.mouth1{
+    width: 14vmin;
+    height: 3vmin;
+    background-color: transparent;
+    top: 13.5vmin;
+    left: 17vmin;
+    border-bottom: 3vmin solid var(--secondary-color);
+    border-left: 7vmin solid transparent;
+    border-right: 7vmin solid transparent;
+}
+
+.mouth2{
+    width: 9.6vmin;
+    height: 1.6vmin;
+    background-color: transparent;
+    top: 12.1vmin;
+    left: 11vmin;
+    border-bottom: 1.6vmin solid var(--secondary-color);
+    border-left: 4.8vmin solid transparent;
+    border-right: 4.8vmin solid transparent;
+}
+
+.mouth3{
+    width: 5vmin;
+    height: 1vmin;
+    background-color: var(--secondary-color);
+    top: 17.5vmin;
+    left: 5vmin;
+    transform: rotate(-12deg);
+}
+
+.mouth4{
+    width: 5vmin;
+    height: 1vmin;
+    background-color: var(--secondary-color);
+    top: 21.7vmin;
+    left: 5vmin;
+    transform: rotate(28deg);
+}
+
+.mouth5{
+    width: 6vmin;
+    height: 1vmin;
+    background-color: var(--secondary-color);
+    top: 23vmin;
+    left: 14vmin;
+}
+
+.mouth6{
+    width: 6vmin;
+    height: 1.25vmin;
+    background-color: transparent;
+    top: 22.75vmin;
+    left: 20.3vmin;
+    transform: rotate(158deg);
+    border-bottom: 1.25vmin solid var(--secondary-color);
+    border-left: 0.5vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.right-cheek3{
+    width: 0.38vmin;
+    height: 1.48vmin;
+    background-color: var(--secondary-color);
+    top: 9.2vmin;
+    left: -7.3vmin;
+}
+
+.right-cheek4{
+    width: 0.38vmin;
+    height: 3vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(211deg);
+    top: 5.5vmin;
+    left: -5.9vmin;
+
+}
+
+.left-cheek1{
+    width: 3.9vmin;
+    height: 1.8vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 9vmin;
+    left: 37.4vmin;
+    border-bottom: 1.8vmin solid var(--tertiary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.6vmin solid transparent;
+
+}
+
+.left-cheek2{
+    width: 1vmin;
+    height: 7.8vmin;
+    background-color: transparent;
+    transform: rotate(-40deg);
+    top: 4vmin;
+    left: 31vmin;
+    border-bottom: 7.8vmin solid var(--secondary-color);
+    border-left: 0.1vmin solid transparent;
+    border-right: 0.45vmin solid transparent;
+}
+
+.nose1{
+    width: 6.5vmin;
+    height: 2.5vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 2.8vmin;
+    left: 5.9vmin;
+    border-bottom: 2.5vmin solid var(--secondary-color);
+    border-left: 3.25vmin solid transparent;
+    border-right: 3.25vmin solid transparent;
+}
+.nose2{
+    width: 6.5vmin;
+    height: 0.9vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(180deg);
+    top: -0.5vmin;
+    left: 5.9vmin;
+}
+
+.nose3{
+    width: 0.2vmin;
+    height: 0.9vmin;
+    background-color: var(--secondary-color);
+    top: -2.3vmin;
+    left: -0.3vmin;
+}
+.nose4{
+    width: 0.4vmin;
+    height: 1.5vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(14deg);
+    top: -3.9vmin;
+    left: -0vmin;
+}
+
+.nose5{
+    width: 1.2vmin;
+    height: 1.5vmin;
+    background-color: var(--secondary-color);
+    top: 3.7vmin;
+    left: 13.3vmin;
+}
+
+.nose6{
+    width: 4vmin;
+    height: 1.5vmin;
+    background-color: transparent;
+    transform: rotate(90deg);
+    top: -0.5vmin;
+    left: 14.3vmin;
+    border-bottom: 1.5vmin solid var(--secondary-color);
+    border-left: 1.1vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.nose7{
+    width: 5vmin;
+    height: 1.5vmin;
+    background-color: var(--secondary-color);
+    top: -1.5vmin;
+    left: 14.4vmin;
+
+}
+
+.nose8{
+    width: 1.7vmin;
+    height: 1.5vmin;
+    background-color: var(--secondary-color);
+    top: -4.3vmin;
+    left: 17.75vmin;
+}
+
+.nose9{
+    width: 2.6vmin;
+    height: 1.7vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 0.5vmin;
+    left: 20.8vmin;
+    border-bottom: 1.75vmin solid var(--secondary-color);
+    border-left: 0.6vmin solid transparent;
+    border-right: 0vmin solid transparent;
+
+}
+
+.nose10{
+    width: 0.3vmin;
+    height: 1vmin;
+    background-color: var(--secondary-color);
+    top: -1.9vmin;
+    left: 23.1vmin;
+}
+
+.nose11{
+    width: 0.3vmin;
+    height: 2vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-27deg);
+    top: -4.8vmin;
+    left: 22vmin;
+}
+
+.right-eye5{
+    width: 3vmin;
+    height: 0.3vmin;
+    background-color: var(--secondary-color);
+    top: -20.3vmin;
+    left: -9vmin;
+}
+
+.right-eye6{
+    width: 8.5vmin;
+    height: 4.3vmin;
+    background-color: transparent;
+    transform: rotate(138deg);
+    top: -25.8vmin;
+    left: -17.5vmin;
+    border-bottom: 4.3vmin solid var(--secondary-color);
+    border-left: 4vmin solid transparent;
+    border-right: 4.3vmin solid transparent;
+}
+
+.right-eye7{
+    width: 2vmin;
+    height: 2vmin;
+    background-color: var(--secondary-color);
+    top: -33.5vmin;
+    left: -12.5vmin;
+}
+
+.right-eye8{
+    width: 1.6vmin;
+    height: 2vmin;
+    background-color: var(--secondary-color);
+    top: -18.9vmin;
+    left: -22.8vmin;
+}
+
+.right-eye9{
+    width: 1.6vmin;
+    height: 2vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(45deg);
+    top: -19.5vmin;
+    left: -21vmin;
+}
+
+.right-eye10{
+    width: 1.6vmin;
+    height: 3.7vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(90deg);
+    top: -22.3vmin;
+    left: -21.7vmin;
+}
+
+.right-eye11{
+    width: 1.6vmin;
+    height: 3.7vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(49deg);
+    top: -24vmin;
+    left: -23.5vmin;
+}
+
+.right-eye12{
+    width: 1.6vmin;
+    height: 2.5vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-45deg);
+    top: -33.5vmin;
+    left: 2.5vmin;
+}
+
+.right-eye13{
+    width: 1.6vmin;
+    height: 2.5vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-90deg);
+    top: -34.8vmin;
+    left: -0.5vmin;
+}
+
+.left-eye4{
+    width: 11vmin;
+    height: 2.5vmin;
+    background-color: transparent;
+    top: -36.2vmin;
+    left: 30.1vmin;
+    border-bottom: 2.6vmin solid var(--secondary-color);
+    border-left: 4.2vmin solid transparent;
+    border-right: 3.6vmin solid transparent;
+}
+
+.left-eye5{
+    width: 0.8vmin;
+    height: 1.9vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-11deg);
+    top: -30.6vmin;
+    left: 42.2vmin;
+}
+
+.left-eye6{
+    width: 0.8vmin;
+    height: 3vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-33deg);
+    top: -31.5vmin;
+    left: 41vmin;
+}
+
+.left-eye7{
+    width: 0.8vmin;
+    height: 3vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-56deg);
+    top: -34vmin;
+    left: 39.8vmin;
+}
+
+.left-eye8{
+    width: 3vmin;
+    height: 5vmin;
+    background-color: var(--secondary-color);
+    top: -29vmin;
+    left: 22.8vmin;
+}
+
+.left-eye9{
+    width: 2vmin;
+    height: 5vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-77deg);
+    top: -26.5vmin;
+    left: 26vmin;
+}
+
+.left-eye10{
+    width: 3.1vmin;
+    height: 0.9vmin;
+    background-color: transparent;
+    transform: rotate(-114deg);
+    top: -20.3vmin;
+    left: 38.7vmin;
+    border-bottom: 0.9vmin solid var(--secondary-color);
+    border-left: 0.4vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.hair6{
+    width: 4vmin;
+    height: 6vmin;
+    background-color: var(--secondary-color);
+    transform: rotate(-14deg);
+    top: -53vmin;
+    left: 48vmin;
+}
+/*Orange*/
+
+/*red*/
+.hair1 {
+    width: 17.8vmin;
+    height: 10vmin;
+    background-color: var(--tertiary-color);
+    top: -85.5vmin;
+    left: 10.5vmin;
+    transform: rotate(5deg);
+    
+}
+
+.hair2 {
+    width: 7vmin;
+    height: 10vmin;
+    background: var(--tertiary-color);
+    top: -82vmin;
+    left: 31.5vmin;
+    transform: rotate(-45deg);
+  }
+
+  .hair3 {
+    width: 5vmin;
+    height: 5vmin;
+    background: var(--tertiary-color);
+    top: -75vmin;
+    left: 38.7vmin;
+  }
+
+.hair4 {
+    width: 13.5vmin;
+    height: 10vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-29deg);
+    top: -81.5vmin;
+    left: -13.5vmin;
+}
+
+.hair5 {
+    width: 7vmin;
+    height: 8.3vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(23.4deg);
+    top: -73vmin;
+    left: -27.3vmin;
+}
+
+.left-hear1 {
+    width: 2vmin;
+    height: 3vmin;
+    background-color: transparent;
+    transform: rotate(-65deg);
+    left: 52vmin;
+    top: 4.5vmin;
+    border-bottom: 1.5vmin solid var(--tertiary-color);
+    border-left: 1vmin solid transparent;
+    border-right: 2.8vmin solid transparent;
+
+}
+
+.left-hear2 {
+    width: 1.9vmin;
+    height: 10vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    left: 55.4vmin;
+    top: -5vmin;
+    border-bottom: 9vmin solid var(--tertiary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 0.3vmin solid transparent;
+
+}
+
+.left-hear3 {
+    width: 2vmin;
+    height: 2vmin;
+    background-color: transparent;
+    left: 53vmin;
+    top: -5.5vmin;
+    border-bottom: 1.5vmin solid var(--tertiary-color);
+    border-left: 2vmin solid transparent;
+    border-right: 0vmin solid transparent;
+
+}
+
+.left-hear4 {
+    width: 0.5vmin;
+    height: 2.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(45deg);
+    left: 54vmin;
+    top: 3.9vmin;
+
+}
+
+.right-chin1{
+    width: 3.5vmin;
+    height: 7vmin;
+    background-color: var(--tertiary-color);
+    top: 29.6vmin;
+    left: -18.5vmin;
+}
+
+.right-chin2{
+    width: 3.5vmin;
+    height: 7.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-18deg);
+    top: 31.8vmin;
+    left: -11.6vmin;
+}
+
+.right-chin3{
+    width: 3.5vmin;
+    height: 7.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-18deg);
+    top: 31.8vmin;
+    left: -13vmin;
+}
+
+.right-chin4{
+    width: 3.5vmin;
+    height: 7.5vmin;
+    background-color: var(--tertiary-color);
+    top: 30.9vmin;
+    left: -13.8vmin;
+}
+
+.right-chin5{
+    width: 7.5vmin;
+    height: 3.5vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 34.5vmin;
+    left: -24vmin;
+    border-bottom: 3.5vmin solid var(--tertiary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 2.6vmin solid transparent;
+}
+
+.nose12{
+    width: 3.5vmin;
+    height: 1vmin;
+    background-color: transparent;
+    top: -6vmin;
+    left: 8.7vmin;
+    border-bottom: 1vmin solid var(--tertiary-color);
+    border-left: 2.2vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.nose13{
+    width: 3.6vmin;
+    height: 1.2vmin;
+    background-color: var(--tertiary-color);
+    top: -3.8vmin;
+    left: 8.7vmin;
+}
+
+.nose14{
+    width: 1vmin;
+    height: 0.7vmin;
+    background-color: transparent;
+    top: -4vmin;
+    left: 13vmin;
+    transform: rotate(90deg);
+    border-bottom: 0.7vmin solid var(--tertiary-color);
+    border-left: 0.5vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.mouth7{
+    width: 12.3vmin;
+    height: 2.2vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 26vmin;
+    left: 11.3vmin;
+    border-bottom: 2.1vmin solid var(--tertiary-color);
+    border-left: 3.2vmin solid transparent;
+    border-right: 2.1vmin solid transparent;
+}
+
+.mouth8{
+    width: 1vmin;
+    height: 3vmin;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    top: 22.9vmin;
+    left: 20.7vmin;
+    border-bottom: 3vmin solid var(--tertiary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.1vmin solid transparent;
+}
+
+.mouth9{
+    width: 1.7vmin;
+    height: 3vmin;
+    background-color: transparent;
+    transform: rotate(90deg);
+    top: 22.4vmin;
+    left: 4.1vmin;
+    border-bottom: 3vmin solid var(--tertiary-color);
+    border-left: 1.2vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.mouth10{
+    width: 2.8vmin;
+    height: 3vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 23.3vmin;
+    left: -1.5vmin;
+    border-bottom: 3vmin solid var(--tertiary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 3vmin solid transparent;
+}
+
+.mouth11{
+    width: 3.9vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(180deg);
+    top: 19.2vmin;
+    left: -2.5vmin;
+}
+
+.mouth12{
+    width: 2vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    top: 16.4vmin;
+    left: -4.5vmin;
+    border-bottom: 1.95vmin solid var(--tertiary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 0.8vmin solid transparent;
+}
+
+.mouth13{
+    width: 2.3vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 22.7vmin;
+    left: -6.4vmin;
+    border-bottom: 1vmin solid var(--tertiary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.mouth14{
+    width: 2.3vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 21vmin;
+    left: -6.4vmin;
+    border-bottom: 1vmin solid var(--tertiary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.mouth15{
+    width: 1.1vmin;
+    height: 3vmin;
+    background-color: transparent;
+    transform: rotate(90deg);
+    top: 16.1vmin;
+    left: 30.2vmin;
+    border-bottom: 3.2vmin solid var(--tertiary-color);
+    border-left: 1.3vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.mouth16{
+    width: 1.9vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    top: 19vmin;
+    left: 31.1vmin;
+}
+
+.mouth17{
+    width: 2.3vmin;
+    height: 1.4vmin;
+    background-color: var(--tertiary-color);
+    top: 17.3vmin;
+    left: 10.5vmin;
+}
+
+.mouth18{
+    width: 2.8vmin;
+    height: 0.6vmin;
+    background-color: var(--tertiary-color);
+    top: 16.2vmin;
+    left: 15.2vmin;
+}
+
+.mouth19{
+    width: 0.6vmin;
+    height: 0.6vmin;
+    background-color: var(--tertiary-color);
+    top: 17vmin;
+    left: 17.5vmin;
+}
+
+.mouth20{
+    width: 1.5vmin;
+    height: 0.6vmin;
+    background-color: var(--tertiary-color);
+    top: 18vmin;
+    left: 12.7vmin;
+}
+
+.right-hear4{
+    width: 0.5vmin;
+    height: 5.3vmin;
+    background-color: var(--tertiary-color);
+    top: -2.5vmin;
+    left: -36.7vmin;
+}
+
+.right-hear5{
+    width: 1.5vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(-10deg);
+    top: -9.3vmin;
+    left: -38.7vmin;
+    border-bottom: 1.8vmin solid var(--tertiary-color);
+    border-left: 1.2vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-hear6{
+    width: 1.5vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(170deg);
+    top: -5vmin;
+    left: -38.2vmin;
+    border-bottom: 1.8vmin solid var(--tertiary-color);
+    border-left: 1.2vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-hear7{
+    width: 1vmin;
+    height: 0.8vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(45.5deg);
+    top: -4.3vmin;
+    left: -37.5vmin;
+}
+
+.right-eye14{
+    width: 9.5vmin;
+    height: 2.2vmin;
+    background-color: transparent;
+    top: -35vmin;
+    left: -7.3vmin;
+    border-bottom: 2.5vmin solid var(--tertiary-color);
+    border-left: 2.5vmin solid transparent;
+    border-right: 3.3vmin solid transparent;
+}
+
+.right-eye15{
+    width: 6.2vmin;
+    height: 2.2vmin;
+    background-color: transparent;
+    top: -33vmin;
+    left: -18.3vmin;
+    transform: rotate(-44deg);
+    border-bottom: 1.5vmin solid var(--tertiary-color);
+    border-left: 1.2vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-eye16{
+    width: 6.2vmin;
+    height: 2.2vmin;
+    background-color: transparent;
+    top: -33vmin;
+    left: -17.8vmin;
+    transform: rotate(-38deg);
+    border-bottom: 1.5vmin solid var(--tertiary-color);
+    border-left: 1.2vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-eye17{
+    width: 1.1vmin;
+    height: 3vmin;
+    background-color: var(--tertiary-color);
+    top: -27.8vmin;
+    left: -20.5vmin;
+}
+
+.right-eye18{
+    width: 1.2vmin;
+    height: 2.2vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(48deg);
+    top: -26vmin;
+    left: -21.8vmin;
+}
+
+.right-eye19{
+    width: 1.4vmin;
+    height: 2.5vmin;
+    background-color: var(--tertiary-color);
+    top: -22.8vmin;
+    left: -22.8vmin;
+}
+
+.right-eye20{
+    width: 1.2vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    top: -19.6vmin;
+    left: -21vmin;
+}
+
+.right-eye21{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(43deg);
+    top: -19.6vmin;
+    left: -19.8vmin;
+}
+
+.right-eye22{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-54deg);
+    top: -30vmin;
+    left: 3.9vmin;
+}
+
+.right-eye23{
+    width: 1.2vmin;
+    height: 2.2vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(90deg);
+    top: -21vmin;
+    left: -16.7vmin;
+}
+
+.right-eye24{
+    width: 1.2vmin;
+    height: 1.2vmin;
+    background-color: var(--tertiary-color);
+    top: -23vmin;
+    left: -15.6vmin;
+}
+
+.right-eye25{
+    width: 2vmin;
+    height: 1.2vmin;
+    background-color: var(--tertiary-color);
+    top: -23.6vmin;
+    left: -12.5vmin;
+}
+
+.right-eye26{
+    width: 4.5vmin;
+    height: 0.5vmin;
+    background-color: var(--tertiary-color);
+    top: -18vmin;
+    left: -9.5vmin;
+}
+
+.right-eye27{
+    width: 1.5vmin;
+    height: 3.5vmin;
+    background-color: var(--tertiary-color);
+    top: -26.5vmin;
+    left: 4.2vmin;
+}
+
+.left-eye11{
+    width: 4.5vmin;
+    height: 0.5vmin;
+    background-color: var(--tertiary-color);
+    top: -18.3vmin;
+    left: 28.3vmin;
+}
+
+.left-eye12{
+    width: 5.3vmin;
+    height: 1.8vmin;
+    background-color: transparent;
+    transform: rotate(150deg);
+    top: -33.5vmin;
+    left: 22.5vmin;
+    border-bottom: 1.7vmin solid var(--tertiary-color);
+    border-left: 1vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-eye13{
+    width: 4.2vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(90deg);
+    top: -28.2vmin;
+    left: 18.6vmin;
+}
+
+.left-eye14{
+    width: 3vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(53deg);
+    top: -26vmin;
+    left: 20.6vmin;
+}
+
+.left-eye15{
+    width: 3vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-48deg);
+    top: -31.5vmin;
+    left: 20.6vmin;
+}
+
+.left-eye16{
+    width: 1vmin;
+    height: 1vmin;
+    background-color: var(--tertiary-color);
+    top: -23.8vmin;
+    left: 22.8vmin;
+}
+
+.left-eye17{
+    width: 1vmin;
+    height: 0.8vmin;
+    background-color: var(--tertiary-color);
+    top: -24.5vmin;
+    left: 23.8vmin;
+}
+
+.left-eye18{
+    width: 1vmin;
+    height: 1.2vmin;
+    background-color: var(--tertiary-color);
+    top: -23.8vmin;
+    left: 25.5vmin;
+}
+
+.left-eye19{
+    width: 1vmin;
+    height: 1.2vmin;
+    background-color: var(--tertiary-color);
+    top: -23.8vmin;
+    left: 30vmin;
+}
+
+.left-eye20{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(27deg);
+    top: -24.4vmin;
+    left: 30.5vmin;
+}
+
+.left-eye21{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(90deg);
+    top: -25.2vmin;
+    left: 31.5vmin;
+}
+
+.left-eye22{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-42deg);
+    top: -25vmin;
+    left: 32.8vmin;
+}
+
+.left-eye23{
+    width: 1vmin;
+    height: 1.5vmin;
+    background-color: var(--tertiary-color);
+    top: -24.7vmin;
+    left: 33.8vmin;
+}
+
+.left-eye24{
+    width: 0.8vmin;
+    height: 2vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-45deg);
+    top: -24.5vmin;
+    left: 36vmin;
+}
+
+.left-eye25{
+    width: 0.8vmin;
+    height: 2vmin;
+    background-color: var(--tertiary-color);
+    transform: rotate(-78deg);
+    top: -26.7vmin;
+    left: 32vmin;
+}
+/*red*/
+
+/*black*/
+
+.hair7{
+    width: 12vmin;
+    height: 9.5vmin;
+    background-color: transparent;
+    transform: rotate(184.5deg);
+    top: -80.3vmin;
+    left: 17.6vmin;
+    border-bottom: 8.8vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 5vmin solid transparent;
+}
+
+.hair8{
+    width: 11.5vmin;
+    height: 10vmin;
+    background-color: transparent;
+    transform: rotate(2.8deg);
+    top: -82.2vmin;
+    left: 3.6vmin;
+    border-bottom: 9.35vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 6.5vmin solid transparent;
+}
+
+.hair9{
+    width: 23vmin;
+    height: 3.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(2.8deg);
+    top: -75.2vmin;
+    left: 10.6vmin;
+
+}
+
+.hair10{
+    width: 13vmin;
+    height: 3.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-21.8deg);
+    top: -75.2vmin;
+    left: -14.6vmin;
+
+}
+
+.hair11{
+    width: 12.8vmin;
+    height: 3.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-30.8deg);
+    top: -69.2vmin;
+    left: -22.6vmin;
+}
+
+.hair12{
+    width: 7.2vmin;
+    height: 3.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-48.8deg);
+    top: -65.8vmin;
+    left: -30vmin;
+}
+
+.hair13{
+    width: 8.5vmin;
+    height: 3.5vmin;
+    background-color: transparent;
+    transform: rotate(-212deg);
+    top: -56.8vmin;
+    left: -28.7vmin;
+    border-bottom: 1.9vmin solid var(--quaternary-color);
+    border-left: 3.6vmin solid transparent;
+    border-right: 4.8vmin solid transparent;
+}
+
+.hair14{
+    width: 3.9vmin;
+    height: 3.5vmin;
+    background-color: transparent;
+    transform: rotate(-268deg);
+    top: -58.8vmin;
+    left: -34.3vmin;
+    border-bottom: 3vmin solid var(--quaternary-color);
+    border-left: 1.6vmin solid transparent;
+    border-right: 1.8vmin solid transparent;
+}
+
+.hair15{
+    width: 3.9vmin;
+    height: 4.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(32deg);
+    top: -63.4vmin;
+    left: -28.3vmin;
+}
+
+.hair16{
+    width: 4.5vmin;
+    height: 9vmin;
+    background-color: transparent;
+    transform: rotate(-108deg);
+    top: -84.8vmin;
+    left: -18.6vmin;
+    border-bottom: 7.8vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 4.5vmin solid transparent;
+}
+
+.hair17{
+    width: 2.5vmin;
+    height: 3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(5deg);
+    top: -88.6vmin;
+    left: -9.5vmin;
+}
+
+.hair18{
+    width: 2.5vmin;
+    height: 3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-17deg);
+    top: -86vmin;
+    left: -9.5vmin;
+}
+
+.hair19{
+    width: 4.8vmin;
+    height: 9.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: -66.5vmin;
+    left: 41vmin;
+}
+
+.hair20{
+    width: 2.8vmin;
+    height: 12vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: -68vmin;
+    left: 36.7vmin;
+}
+
+.hair21{
+    width: 2.8vmin;
+    height: 6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-5deg);
+    top: -79.5vmin;
+    left: 30.8vmin;
+}
+
+.hair22{
+    width: 1.5vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: -86.3vmin;
+    left: 30.7vmin;
+}
+
+.hair23{
+    width: 1.5vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-19deg);
+    top: -77.3vmin;
+    left: 10.7vmin;
+}
+
+.hair24{
+    width: 1.5vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(10deg);
+    top: -72.3vmin;
+    left: 34.7vmin;
+}
+
+.hair25{
+    width: 4vmin;
+    height: 4vmin;
+    background-color: transparent;
+    transform: rotate(-15deg);
+    top: -79.3vmin;
+    left: 37.7vmin;
+    border-bottom: 3.8vmin solid var(--quaternary-color);
+    border-left: 1.7vmin solid transparent;
+    border-right: 2.3vmin solid transparent;
+}
+
+.hair26{
+    width: 3vmin;
+    height: 4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-10deg);
+    top: -72.2vmin;
+    left: 40.3vmin;
+}
+
+.hair27{
+    width: 8vmin;
+    height: 5vmin;
+    background-color: transparent;
+    transform: rotate(-100deg);
+    top: -54.5vmin;
+    left: 47.8vmin;
+    border-bottom: 4.25vmin solid var(--quaternary-color);
+    border-left: 3.3vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.hair28{
+    width: 4.4vmin;
+    height: 5vmin;
+    background-color: transparent;
+    transform: rotate(83deg);
+    top: -46.8vmin;
+    left: 50.2vmin;
+    border-bottom: 4.25vmin solid var(--quaternary-color);
+    border-left: 2.9vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.hair29{
+    width: 1vmin;
+    height: 9vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-9deg);
+    top: -43vmin;
+    left: 53.8vmin;
+}
+
+.hair30{
+    width: 1vmin;
+    height: 7.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(15deg);
+    top: -43vmin;
+    left: 50.8vmin;
+}
+
+.hair31{
+    width: 1.9vmin;
+    height: 8.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(5deg);
+    top: -26.2vmin;
+    left: 53.5vmin;
+}
+
+.hair32{
+    width: 1.9vmin;
+    height: 8.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-19.5deg);
+    top: -34.4vmin;
+    left: 50.3vmin;
+}
+
+.hair33{
+    width: 1.9vmin;
+    height: 6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -37.4vmin;
+    left: 52.3vmin;
+}
+
+.hair34{
+    width: 0.6vmin;
+    height: 6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(6deg);
+    top: -15.8vmin;
+    left: 51.3vmin;
+}
+
+.hair35{
+    width: 0.6vmin;
+    height: 4.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(24deg);
+    top: -14.2vmin;
+    left: 52.5vmin;
+}
+
+.hair36{
+    width: 0.8vmin;
+    height: 4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(15deg);
+    top: -15.5vmin;
+    left: 52.1vmin;
+}
+
+.left-hear5{
+    width: 4.7vmin;
+    height: 4vmin;
+    background-color: transparent;
+    transform: rotate(90deg);
+    top: -1.3vmin;
+    left: 54.3vmin;
+    border-bottom: 1.3vmin solid var(--quaternary-color);
+    border-left: 1.1vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-hear6{
+    width: 2.1vmin;
+    height: 4vmin;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    top: -12.5vmin;
+    left: 53vmin;
+    border-bottom: 1.9vmin solid var(--quaternary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.right-hear8{
+    width: 5.3vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    top: -9.6vmin;
+    left: -45.2vmin;
+    border-bottom: 1.2vmin solid var(--quaternary-color);
+    border-left: 5.3vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.right-hear9{
+    width: 5.3vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-90deg);
+    top: -9.5vmin;
+    left: -42.7vmin;
+
+}
+
+.right-hear10{
+    width: 1vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -11.7vmin;
+    left: -41.3vmin;
+}
+
+.right-hear11{
+    width: 1.7vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(55deg);
+    top: -13.1vmin;
+    left: -42vmin;
+}
+
+.chin1{
+    width: 28vmin;
+    height: 10vmin;
+    background-color: transparent;
+    transform: rotate(67.2deg);
+    top: 60vmin;
+    left: -13.5vmin;
+    border-bottom: 8vmin solid var(--quaternary-color);
+    border-left: 21.4vmin solid transparent;
+    border-right: 6.8vmin solid transparent;
+}
+
+.chin2{
+    width: 5.5vmin;
+    height: 13.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(46deg);
+    top: 54.3vmin;
+    left: 14.7vmin;
+}
+
+.chin3{
+    width: 2.5vmin;
+    height: 13.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 56.5vmin;
+    left: 13.5vmin;
+}
+
+.chin4{
+    width: 2.5vmin;
+    height: 13.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: 58.9vmin;
+    left: 3.2vmin;
+}
+
+.chin5{
+    width: 2.5vmin;
+    height: 11vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: 58.2vmin;
+    left: -9.9vmin;
+}
+
+.chin6{
+    width: 2.5vmin;
+    height: 5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(67deg);
+    top: 63.7vmin;
+    left: -0.3vmin;
+}
+
+.chin7{
+    width: 2.5vmin;
+    height: 18vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-41deg);
+    top: 51.5vmin;
+    left: -11.9vmin;
+}
+
+.chin8{
+    width: 2.5vmin;
+    height: 16vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-62deg);
+    top: 44.6vmin;
+    left: 6.5vmin;
+}
+
+.chin9{
+    width: 5vmin;
+    height: 16vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-62deg);
+    top: 50vmin;
+    left: 2vmin;
+}
+
+.chin10{
+    width: 2.5vmin;
+    height: 11vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-45deg);
+    top: 56vmin;
+    left: -5vmin;
+}
+
+.chin11{
+    width: 2.5vmin;
+    height: 11vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-90deg);
+    top: 45.2vmin;
+    left: 18vmin;
+}
+
+.chin12{
+    width: 1.5vmin;
+    height: 11vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-100deg);
+    top: 44vmin;
+    left: 22vmin;
+}
+
+.chin13{
+    width: 1.3vmin;
+    height: 11vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(46deg);
+    top: 49.2vmin;
+    left: 26vmin;
+}
+
+.chin14{
+    width: 3.5vmin;
+    height: 8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-118deg);
+    top: 41.5vmin;
+    left: -11.8vmin;
+}
+
+.chin15{
+    width: 0.8vmin;
+    height: 7.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: 37.2vmin;
+    left: -20.2vmin;
+}
+
+.chin16{
+    width: 0.8vmin;
+    height: 8.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-41deg);
+    top: 43.3vmin;
+    left: -21.5vmin;
+}
+
+.chin17{
+    width: 0.8vmin;
+    height: 8.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-41deg);
+    top: 43vmin;
+    left: -8.1vmin;
+}
+
+.chin18{
+    width: 0.8vmin;
+    height: 8.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(44deg);
+    top: 47.2vmin;
+    left: 13.5vmin;
+}
+
+.chin19{
+    width: 1.1vmin;
+    height: 5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 45.7vmin;
+    left: 19.9vmin;
+}
+
+.chin20{
+    width: 4vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 39vmin;
+    left: -17vmin;
+}
+
+.chin21{
+    width: 1vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 38.5vmin;
+    left: -24.5vmin;
+}
+
+.chin22{
+    width: 3vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: 51.7vmin;
+    left: -19.5vmin;
+    border-bottom: 1.5vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.chin23{
+    width: 1.5vmin;
+    height: 6vmin;
+    background-color: transparent;
+    transform: rotate(46deg);
+    top: 37.5vmin;
+    left: 37.9vmin;
+    border-bottom: 6vmin solid var(--quaternary-color);
+    border-left: 1.1vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.chin24{
+    width: 0.5vmin;
+    height: 3.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(33deg);
+    top: 31.5vmin;
+    left: 44.5vmin;
+}
+
+.mouth21{
+    width: 0.5vmin;
+    height: 8.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(92deg);
+    top: 23.8vmin;
+    left: 9.5vmin;
+}
+
+.mouth22{
+    width: 8.5vmin;
+    height: 4vmin;
+    background-color: transparent;
+    transform: rotate(182deg);
+    top: 28.3vmin;
+    left: 9.3vmin;
+    border-bottom: 1.7vmin solid var(--quaternary-color);
+    border-left: 4vmin solid transparent;
+    border-right: 4.5vmin solid transparent;
+}
+
+.mouth23{
+    width: 7.5vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(21deg);
+    top: 15vmin;
+    left: 23.5vmin;
+}
+
+.mouth24{
+    width: 5vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-23deg);
+    top: 14.3vmin;
+    left: 12.3vmin;
+}
+
+.mouth25{
+    width: 5vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(21deg);
+    top: 16vmin;
+    left: 25.8vmin;
+}
+
+.mouth26{
+    width: 6.6vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(7deg);
+    top: 16.9vmin;
+    left: 24vmin;
+}
+
+.mouth27{
+    width: 12vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 15.3vmin;
+    left: 12.7vmin;
+}
+
+.mouth28{
+    width: 7vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-24deg);
+    top: 16.3vmin;
+    left: -0.5vmin;
+}
+
+.mouth29{
+    width: 7vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-14deg);
+    top: 16.8vmin;
+    left: 5.5vmin;
+}
+
+.mouth30{
+    width: 4vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(18deg);
+    top: 17.3vmin;
+    left: 5vmin;
+}
+
+.mouth31{
+    width: 2vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 18.3vmin;
+    left: 10vmin;
+}
+
+.mouth32{
+    width: 2vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 16vmin;
+    left: 10.3vmin;
+}
+
+.mouth33{
+    width: 1.5vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 17vmin;
+    left: 7.4vmin;
+}
+
+.mouth34{
+    width: 1.5vmin;
+    height: 1vmin;
+    background-color: transparent;
+    transform: rotate(-30deg);
+    top: 19vmin;
+    left: -6.6vmin;
+    border-bottom: 0.9vmin solid var(--quaternary-color);
+    border-left: 0.55vmin solid transparent;
+    border-right: 0.8vmin solid transparent;
+}
+
+.mouth35{
+    width: 1.9vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-0deg);
+    top: 18.5vmin;
+    left: -3vmin;
+}
+
+.mouth36{
+    width: 6vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-20deg);
+    top: 16vmin;
+    left: 3.5vmin;
+}
+
+.mouth37{
+    width: 6vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(10deg);
+    top: 16vmin;
+    left: 22.5vmin;
+}
+
+.mouth38{
+    width: 3.5vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(25deg);
+    top: 14.5vmin;
+    left: 20vmin;
+}
+
+.mouth39{
+    width: 3.5vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-25deg);
+    top: 14.5vmin;
+    left: 14vmin;
+}
+
+.mouth40{
+    width: 3.5vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-0deg);
+    top: 14.5vmin;
+    left: 16vmin;
+}
+
+.mouth41{
+    width: 3vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(28deg);
+    top: 13.7vmin;
+    left: 13.5vmin;
+}
+
+.mouth42{
+    width: 5.5vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-13deg);
+    top: 13.6vmin;
+    left: 6vmin;
+}
+
+.mouth43{
+    width: 5.5vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-13deg);
+    top: 15vmin;
+    left: 7vmin;
+}
+
+.mouth44{
+    width: 1vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(25deg);
+    top: 15.2vmin;
+    left: 0.8vmin;
+}
+
+.mouth45{
+    width: 1.2vmin;
+    height: 1vmin;
+    background-color: transparent;
+    transform: rotate(0deg);
+    top: 22.3vmin;
+    left: 2vmin;
+    border-bottom: 1vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.nose15{
+    width: 0.8vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: 2.8vmin;
+    left: 9.4vmin;
+}
+
+.nose16{
+    width: 0.8vmin;
+    height: 4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-36deg);
+    top: 0.2vmin;
+    left: 6.8vmin;
+}
+
+.nose17{
+    width: 2vmin;
+    height: 5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -0.2vmin;
+    left: 8.5vmin;
+}
+
+.nose18{
+    width: 2vmin;
+    height: 4.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -0.8vmin;
+    left: 9vmin;
+}
+
+.nose19{
+    width: 1.2vmin;
+    height: 2.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(31deg);
+    top: -1vmin;
+    left: 4vmin;
+}
+
+.nose20{
+    width: 1.2vmin;
+    height: 1.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -2.8vmin;
+    left: 6vmin;
+}
+
+.nose21{
+    width: 1.2vmin;
+    height: 1.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(50deg);
+    top: -2vmin;
+    left: 7vmin;
+}
+
+.nose22{
+    width: 1.2vmin;
+    height: 1.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: 1.5vmin;
+    left: 11.5vmin;
+}
+
+.nose23{
+    width: 1vmin;
+    height: 1.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(39deg);
+    top: -1vmin;
+    left: 13vmin;
+}
+
+.nose24{
+    width: 1vmin;
+    height: 2.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(20deg);
+    top: 0.3vmin;
+    left: 13vmin;
+}
+
+.nose25{
+    width: 0.6vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -1.3vmin;
+    left: 18.2vmin;
+}
+
+.nose26{
+    width: 0.6vmin;
+    height: 2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-40deg);
+    top: -1.5vmin;
+    left: 19.2vmin;
+}
+
+.nose27{
+    width: 0.6vmin;
+    height: 1.9vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-30deg);
+    top: -1.5vmin;
+    left: 19.7vmin;
+}
+
+.nose28{
+    width: 0.6vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -3vmin;
+    left: 18.3vmin;
+}
+
+.nose29{
+    width: 1.7vmin;
+    height: 1.1vmin;
+    background-color: transparent;
+    transform: rotate(0deg);
+    top: -2.8vmin;
+    left: 17.5vmin;
+    border-bottom: 1.05vmin solid var(--quaternary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.left-eye26{
+    width: 3.3Vmin;
+    height: 1.2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-25deg);
+    top: -35vmin;
+    left: 26.4vmin;
+}
+
+.left-eye27{
+    width: 3.3Vmin;
+    height: 1.2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-14deg);
+    top: -34.2vmin;
+    left: 26.5vmin;
+}
+
+.left-eye28{
+    width: 2.8Vmin;
+    height: 1.2vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(10deg);
+    top: -35.8vmin;
+    left: 31.2vmin;
+}
+
+.left-eye29{
+    width: 1vmin;
+    height: 2.8vmin;
+    background-color: transparent;
+    transform: rotate(17deg);
+    top: -35.3vmin;
+    left: 34vmin;
+    border-bottom: 2vmin solid var(--quaternary-color);
+    border-left: 0.4vmin solid transparent;
+    border-right: 0.6vmin solid transparent;
+}
+
+.left-eye30{
+    width: 2.8Vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(17deg);
+    top: -34.5vmin;
+    left: 31.2vmin;
+}
+
+.left-eye31{
+    width: 2.8Vmin;
+    height: 1.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -25.3vmin;
+    left: 27.8vmin;
+}
+
+.left-eye32{
+    width: 2.8Vmin;
+    height: 1.5vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: -22.5vmin;
+    left: 27.8vmin;
+    border-bottom: 0.8vmin solid var(--quaternary-color);
+    border-left: 0.6vmin solid transparent;
+    border-right: 0.6vmin solid transparent;
+}
+
+.left-eye33{
+    width: 2Vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -26vmin;
+    left: 29vmin;
+}
+
+.left-eye34{
+    width: 2.8Vmin;
+    height: 1.5vmin;
+    background-color: transparent;
+    transform: rotate(0deg);
+    top: -26.5vmin;
+    left: 31vmin;
+    border-bottom: 1vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.3vmin solid transparent;
+}
+
+.left-eye35{
+    width: 2.3Vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(36deg);
+    top: -24vmin;
+    left: 35vmin;
+}
+
+.left-eye36{
+    width: 2.3Vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(40deg);
+    top: -24.8vmin;
+    left: 32.8vmin;
+}
+
+.left-eye37{
+    width: 2.3Vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(40deg);
+    top: -24.8vmin;
+    left: 33.2vmin;
+}
+
+.left-eye38{
+    width: 1vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -23.2vmin;
+    left: 35vmin;
+}
+
+.left-eye39{
+    width: 1.1vmin;
+    height: 0.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(50deg);
+    top: -22vmin;
+    left: 37vmin;
+}
+
+.left-eye40{
+    width: 1.1vmin;
+    height: 0.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-43deg);
+    top: -23vmin;
+    left: 37.1vmin;
+}
+
+.left-eye41{
+    width: 2.2vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(45deg);
+    top: -25vmin;
+    left: 36vmin;
+}
+
+.left-eye42{
+    width: 2.4vmin;
+    height: 0.8vmin;
+    background-color: transparent;
+    transform: rotate(40deg);
+    top: -26vmin;
+    left: 35vmin;
+    border-bottom: 0.5vmin solid var(--quaternary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 1.4vmin solid transparent;
+}
+
+.left-eye43{
+    width: 1.2vmin;
+    height: 0.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-5deg);
+    top: -23.3vmin;
+    left: 21.5vmin;
+}
+
+.left-eye44{
+    width: 1.2vmin;
+    height: 0.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-30deg);
+    top: -23.9vmin;
+    left: 21.5vmin;
+}
+
+.left-eye45{
+    width: 1.2vmin;
+    height: 0.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-35deg);
+    top: -26vmin;
+    left: 24.5vmin;
+}
+
+.left-eye46{
+    width: 1.8vmin;
+    height: 0.4vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-25deg);
+    top: -25.2vmin;
+    left: 24vmin;
+}
+
+.left-eye47{
+    width: 1.5vmin;
+    height: 1.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-35deg);
+    top: -25vmin;
+    left: 21.5vmin;
+}
+
+.left-eye48{
+    width: 2.8vmin;
+    height: 1vmin;
+    background-color: transparent;
+    transform: rotate(-30deg);
+    top: -27.8vmin;
+    left: 24.3vmin;
+    border-bottom: 0.8vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 0.8vmin solid transparent;
+}
+
+.right-eye28{
+    width: 6.8vmin;
+    height: 2vmin;
+    background-color: transparent;
+    transform: rotate(-0deg);
+    top: -36.4vmin;
+    left: -7.5vmin;
+    border-bottom: 1vmin solid var(--quaternary-color);
+    border-left: 1.6vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-eye29{
+    width: 6.8vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-0deg);
+    top: -33.8vmin;
+    left: -7.5vmin;
+}
+
+.right-eye30{
+    width: 6.8vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(3deg);
+    top: -33vmin;
+    left: -7.5vmin;
+}
+
+.right-eye31{
+    width: 4.3vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(37deg);
+    top: -33vmin;
+    left: -0vmin;
+}
+
+.right-eye32{
+    width: 4.3vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(47deg);
+    top: -31.8vmin;
+    left: -0vmin;
+}
+
+.right-eye33{
+    width: 3.5vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -27.5vmin;
+    left: 3vmin;
+}
+
+.right-eye34{
+    width: 3.5vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(90deg);
+    top: -27.5vmin;
+    left: 2.6vmin;
+}
+
+.right-eye35{
+    width: 1vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(45deg);
+    top: -24vmin;
+    left: 2.6vmin;
+}
+
+.right-eye36{
+    width: 3.5vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(31deg);
+    top: -25.8vmin;
+    left: -1.3vmin;
+}
+
+.right-eye37{
+    width: 3vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(23deg);
+    top: -26.4vmin;
+    left: 0vmin;
+}
+
+.right-eye38{
+    width: 1.8vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -27.8vmin;
+    left: -4.5vmin;
+}
+
+.right-eye39{
+    width: 2.3vmin;
+    height: 0.6vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(30deg);
+    top: -26vmin;
+    left: -0.5vmin;
+}
+
+.right-eye40{
+    width: 1.5vmin;
+    height: 0.3vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(30deg);
+    top: -26.8vmin;
+    left: -2.3vmin;
+}
+
+.right-eye41{
+    width: 3.2vmin;
+    height: 1.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -24.8vmin;
+    left: -9vmin;
+}
+
+.right-eye42{
+    width: 3.2vmin;
+    height: 1.5vmin;
+    background-color: transparent;
+    transform: rotate(180deg);
+    top: -22vmin;
+    left: -9vmin;
+    border-bottom: 0.9vmin solid var(--quaternary-color);
+    border-left: 0.8vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-eye43{
+    width: 3.2vmin;
+    height: 1.5vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(0deg);
+    top: -24.8vmin;
+    left: -8.9vmin;
+}
+
+.right-eye44{
+    width: 3.3vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-7deg);
+    top: -25.8vmin;
+    left: -12vmin;
+}
+
+.right-eye45{
+    width: 3.3vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(14deg);
+    top: -25.8vmin;
+    left: -6vmin;
+}
+
+.right-eye46{
+    width: 2vmin;
+    height: 0.8vmin;
+    background-color: transparent;
+    transform: rotate(14deg);
+    top: -24.5vmin;
+    left: -1.8vmin;
+    border-bottom: 0.8vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.5vmin solid transparent;
+}
+
+.right-eye47{
+    width: 1.5vmin;
+    height: 1vmin;
+    background-color: transparent;
+    transform: rotate(0deg);
+    top: -23.3vmin;
+    left: 0.1vmin;
+    border-bottom: 1vmin solid var(--quaternary-color);
+    border-left: 0vmin solid transparent;
+    border-right: 1.2vmin solid transparent;
+}
+
+.right-eye48{
+    width: 0.5vmin;
+    height: 1vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-30deg);
+    top: -23.5vmin;
+    left: -1.5vmin;
+}
+
+.right-eye49{
+    width: 2.5vmin;
+    height: 1vmin;
+    background-color: transparent;
+    transform: rotate(-27deg);
+    top: -22vmin;
+    left: -18.5vmin;
+    border-bottom: 0.7vmin solid var(--quaternary-color);
+    border-left: 0.3vmin solid transparent;
+    border-right: 0vmin solid transparent;
+}
+
+.right-eye50{
+    width: 3.7vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-47deg);
+    top: -23.3vmin;
+    left: -17.1vmin;
+}
+
+.right-eye51{
+    width: 3.5vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(-30deg);
+    top: -23.8vmin;
+    left: -15.8vmin;
+}
+
+.right-eye52{
+    width: 0.8vmin;
+    height: 0.8vmin;
+    background-color: var(--quaternary-color);
+    transform: rotate(10deg);
+    top: -23vmin;
+    left: -16vmin;
+}
+/*black*/
